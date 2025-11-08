@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Island+Moments&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=WDXL+Lubrifont+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Instrument+Sans:wght@400;500;600&family=Crimson+Text:ital@0;1&display=swap');
+@import "tailwindcss";
+
+.bgimgsection {
+ background-image: url("../src/assets/images/BG-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  width: 5px;               
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FDD0C1; 
+  border-radius: 10px;
+}
+
+.handwriting-font, .tagline-font {
+  font-family: 'Island Moments', cursive;
+}
+
+.body-font {
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.serif-font {
+  font-family: 'Crimson Text', serif;
+}
+
+.texture-bg {
+  background-color: #FFF8F0;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(255, 157, 125, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(255, 157, 125, 0.03) 0%, transparent 50%);
+}
